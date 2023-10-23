@@ -1,4 +1,17 @@
 window.onload = function () {
+  // 안내창 닫기
+  const cTap = document.getElementById("modal-close");
+  window.addEventListener("click", function (cTap) {
+    System.exit(0);
+  });
+
+  // 안내창 스크립트
+  let modal = document.querySelector(".modal-wrap");
+  modal.addEventListener("click", function () {
+    modal.style.display = "none";
+    fadeout(modal);
+  });
+
   // AOS 적용
   AOS.init();
 
