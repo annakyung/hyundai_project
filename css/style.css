@@ -38,7 +38,6 @@ body {
   overflow-x: hidden;
   min-width: 780px;
   height: 2000px;
-  background-color: aquamarine;
 }
 
 /* 공통요소 */
@@ -412,7 +411,6 @@ body.active {
   width: calc(50% - 4.32%);
   height: 51.58vw;
   max-height: 840px;
-  background-color: khaki;
 }
 
 .news-top {
